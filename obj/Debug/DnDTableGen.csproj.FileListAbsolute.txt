@@ -1,0 +1,7 @@
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\bin\Debug\DnDTableGen.exe.config
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\bin\Debug\DnDTableGen.exe
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\bin\Debug\DnDTableGen.pdb
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\obj\Debug\DnDTableGen.csprojAssemblyReference.cache
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\obj\Debug\DnDTableGen.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\obj\Debug\DnDTableGen.exe
+C:\Users\Matt\Desktop\Cygwin\Cygwinx86_64\home\Matt\Projects\DnDTableGen\obj\Debug\DnDTableGen.pdb
