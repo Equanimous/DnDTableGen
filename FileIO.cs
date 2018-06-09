@@ -13,8 +13,9 @@ namespace DnDTableGen
         {
             List<string> fileList = null;
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Multiselect = true;
-            openFileDialog.InitialDirectory = "C:\\";
+            //openFileDialog.Multiselect = true;
+            //openFileDialog.InitialDirectory = "C:\\";
+            openFileDialog.InitialDirectory = "C:\\Users\\Matt\\Dropbox\\Games\\D&D STUFFZ\\Hoard of Dragon Queen & Rise of Tiamat\\General\\Shops, Items, and Treasures\\Magic Item Tables\\Ordered Lists test";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -39,6 +40,15 @@ namespace DnDTableGen
             }
 
             return dataList;
+        }
+
+        public void writeToFiles(List<string> fileList, List<string> data)
+        {
+            foreach (string pathName in fileList)
+            {
+                string fileName = pathName.Remove(pathName.Length-4) + " Table.txt";
+                System.IO.File.WriteAllLines(fileName, data);
+            }
         }
     }
 }
